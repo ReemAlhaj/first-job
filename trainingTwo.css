@@ -1,0 +1,142 @@
+body{
+direction:ltr;
+font-family:'Cairo', sans-serif;
+
+}
+
+.box{
+    width: 600px;
+    height: auto;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 5px ; 
+    background: rgb(224, 226, 235);
+    
+   
+}
+
+.mainBody{
+   padding: 50px;
+   box-sizing: border-box;
+   text-align: center;
+
+} 
+    
+
+.mainBody h1{
+    text-align: center;
+    color: rgb(69, 161, 148);
+    
+}
+
+.myInput{
+    background-color: rgb(206, 215, 227);
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    height: 45px;
+    margin-bottom: 20px;
+    
+}
+
+.leftsided{
+    float:left;
+    width: 50%;   
+    text-align: left; 
+}
+
+.forget{
+    color: black;
+   
+}
+
+.button{
+    padding: 6px 12px;
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(33, 145, 132);
+    text-align: center;
+    text-decoration: none;
+    color: white; 
+
+}
+
+.button:hover{
+    color: rgb(20, 56, 53);
+}
+.clear {
+    clear: both;
+   }
+
+.checkBox{
+    color: rgba(128, 128, 128, 0.568)
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+}
+span{
+    
+    display: inline-block;
+}
+
+.rightsided{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.clear {
+    clear: both;
+  }
+
+.social{
+   
+    margin-top: 15px ;
+
+}
+
+a.social{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: aliceblue
+
+}
+
+.fb{
+    background-color: blue;
+}
+.twitter{
+    background-color: rgb(62, 149, 226);
+}
+.googlePlus{
+    background-color: orangered; 
+}
+
+
+.foot{
+    text-align: center;  
+    background-color: rgb(96, 109, 126);
+    height: 80px;
+   line-height: 80px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+
+}
+
+.foot a{
+    color: rgb(206, 215, 227);
+}
+
+.foot a:hover{
+    color:rgb(180, 177, 177);
+}
